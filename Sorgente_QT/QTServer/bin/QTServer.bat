@@ -1,0 +1,1 @@
+java -jar "QTServer.jar" 8080

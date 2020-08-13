@@ -1,0 +1,1 @@
+java -jar "QTAppServer.jar" %*8080

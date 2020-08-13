@@ -1,0 +1,40 @@
+
+
+
+#tabPane {
+  -fx-background-color:  white;
+  -fx-border-color: white;
+  -fx-border-radius: 0;
+  -fx-tab-min-width:50px;
+  -fx-tab-max-width:50px;
+  -fx-tab-min-height:20px;
+  -fx-tab-max-height:20px;
+}
+            
+#borderPane {
+             -fx-background-color:  #6495ed;
+            }
+            #button {
+                -fx-background-radius: 0, 0, 0, 0;
+                -fx-padding: 3px 10px 3px 10px;
+                -fx-background-color: linear-gradient(lightgray, lightgray );
+                -fx-font-size: 10;
+            }
+            
+.tab{
+    -fx-background-color: white;
+    -fx-shape: "M300,290 L310,168 L410,168 L421,290 L300,290 z";
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {-fx-border-color: transparent;}
+
+.tab-header-background{
+    -fx-background-color: lightgray;
+   	-fx-alignment: CENTER;
+   	-fx-pref-height: 10;
+}
+
+.tab-label{
+    -fx-text-fill: black;
+    -fx-font-size: 9pt; 
+}
